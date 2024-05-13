@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flexboxcontainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+
+
+
+}
+
+.box1 {
+    width: 100%;
+    height: auto;
+}
+
+.floatingtext {
+    position: absolute;
+    font-size: x-large;
+}
+
+.box2 {
+    background: url("/schlusslicht\ images/gregorcover.png") center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: xx-large;
+
+}
+
+.box3 {
+    background: url("/schlusslicht\ images/microphone.png") center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: xx-large;
+}
+
+.box4 {
+    background: url("/schlusslicht\ images/backstage.png") center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    color: #cc3ec7;
+}
+
+.box5 {
+    background: url("/schlusslicht\ images/eye.png") center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: xx-large;
+
+}
+
+
+
+.socials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+
+
+}
+
+.music-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+svg {
+    height: 200px
+}
+
+.sender {
+    color: rgb(255, 0, 191);
+    border-radius: 5px;
+    font-size: small;
+
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #df2df3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(144, 0, 255);
+}
+
+h1 {
+    color: #e2c8ec;
+    text-shadow: 2px 2px 8px #e7a3e7;
+    letter-spacing: 15px;
+
+
+}
+
+
+h2 {
+    color: #eac8e7;
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+p {
+    color: #eac8e7;
+}
+
+h3 {
+    color: #2d30f3;
+}
+
+@media (max-width:638px) {
+
+
+    .socials-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+
+
+    }
+
+    .music-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    svg {
+        height: 100px
+    }
+
+    .floatingtext {
+        position: absolute;
+        font-size: 0.2rem;
+
+    }
+
+    h1 {
+        font-size: 0.4rem;
+        letter-spacing: 5px;
+
+    }
+
+    h2,
+    p {
+        font-size: 2rem;
+        text-align: center;
+        color: #e7a3d5;
+    }
+
+    .box4 {
+        background: url("/schlusslicht\ images/bscut.png") center/cover;
+    }
+
+    .box6 {
+        height: max-content;
+    }
+
+}
