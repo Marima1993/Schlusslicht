@@ -5,7 +5,7 @@ Schlusslicht Synth Pop Band Website
 ![logo-stretch](https://github.com/Marima1993/Schlusslicht/assets/163862107/48b459dc-a62a-40da-a1b8-e19adb6dc67a)
 
 
-Welcome to the official GitHub repository for the Schlusslicht Synth Pop Band website! Here, you will find all the necessary information to set up and contribute to our web page. We are excited to have you on board!
+Welcome to the official GitHub repository for the Schlusslicht Synth Pop Band website! 
 
 About Schlusslicht
 
@@ -13,13 +13,16 @@ Schlusslicht is a dynamic and energetic one man project that aims to captivate a
 
 Table of Contents
 
+Features
+
+Installation
+
+Tools and Languages
+
+
 <img width="587" alt="Gregor" src="https://github.com/Marima1993/Schlusslicht/assets/163862107/cb3a7dad-e79a-4103-8f15-5692daa9bb20"><img width="727" alt="logo" src="https://github.com/Marima1993/Schlusslicht/assets/163862107/7feda02b-2f7e-4909-b962-771a8a459d02">
 <img width="727" alt="eye" src="https://github.com/Marima1993/Schlusslicht/assets/163862107/b0430542-91d0-459a-b100-90e26f55fd10">
 
-
-
-Features
-Installation
 
 
 Features
