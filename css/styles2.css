@@ -34,7 +34,7 @@
 }
 
 .box2 {
-    background: url("/schlusslicht\ images/gregorcover.png") center/cover;
+    background: url("./schlusslicht\ images/gregorcover.png") center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@
 }
 
 .box3 {
-    background: url("/schlusslicht\ images/microphone.png") center/cover;
+    background: url("./schlusslicht\ images/microphone.png") center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +53,7 @@
 }
 
 .box4 {
-    background: url("/schlusslicht\ images/backstage.png") center/cover;
+    background: url("./schlusslicht\ images/backstage.png") center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,7 @@
 }
 
 .box5 {
-    background: url("/schlusslicht\ images/eye.png") center/cover;
+    background: url("./schlusslicht\ images/eye.png") center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,7 +200,7 @@ h3 {
     }
 
     .box4 {
-        background: url("/schlusslicht\ images/bscut.png") center/cover;
+        background: url("./schlusslicht\ images/bscut.png") center/cover;
     }
 
     .box6 {
