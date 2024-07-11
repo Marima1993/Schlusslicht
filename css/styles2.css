@@ -29,6 +29,9 @@
 }
 
 .floatingtext {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
     position: absolute;
     font-size: x-large;
 }
@@ -44,7 +47,7 @@
 }
 
 .box3 {
-    background: url("../schlusslicht-images/microphone.png") center/cover;
+    background: url("../schlusslicht-images/micro2.png") center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +56,7 @@
 }
 
 .box4 {
-    background: url("../schlusslicht-images/backstage.png") center/cover;
+    background: url("../schlusslicht-images/backstage2.png") center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,8 +184,9 @@ h3 {
     }
 
     .floatingtext {
+        row-gap: 1px;
         position: absolute;
-        font-size: 0.2rem;
+        font-size: 1000rem;
 
     }
 
@@ -200,7 +204,7 @@ h3 {
     }
 
     .box4 {
-        background: url("../schlusslicht-images/bscut.png") center/cover;
+        background: url("../schlusslicht-images/bscut1.png") center/cover;
     }
 
     .box6 {
